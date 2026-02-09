@@ -10,6 +10,3 @@ def root():
 def hello():
     return {"Hello": "World"}
 
-@app.get("/health")
-def health():
-    return {"Health": "Healthy"}
