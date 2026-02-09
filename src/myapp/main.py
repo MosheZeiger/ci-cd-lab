@@ -8,5 +8,5 @@ def root():
 
 @app.get("/hello")
 def hello():
-    return {"Hello": "Worldd"}
+    return {"Hello": "World"}
 
