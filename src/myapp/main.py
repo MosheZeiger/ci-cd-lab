@@ -12,4 +12,4 @@ def hello():
 
 @app.get("/health")
 def health():
-    return {"Health": "Healthy"}
+    return {"Health": "Healthyy"}
